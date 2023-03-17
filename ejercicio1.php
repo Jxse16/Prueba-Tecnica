@@ -1,4 +1,13 @@
 <?php
+/*NOTA:
+Hay Ej  que no he podido hacer
+y para no quedarme pillado
+he pasado al siguiente
+para que me de tiempo
+a terminar los maximos 
+posible.
+*/
+
 
 //Variables y Constantes
 
@@ -77,20 +86,4 @@ while ($contarhasta10 <= 10){
     echo $contarhasta10++;
 }
 echo "<br> <br> <br>";
-//Arreglos
-
-$arrayvacio;
-
-$arrayNumeros = array(0,1,2,3,4,5,6,7,8,9);
-var_dump($arrayNumeros) . "<br>";
-echo "<br>";
-echo "<br>";
-$arraypares = array(0,2,4,6,8);
-var_dump($arraypares) . "<br>";
-echo "<br> <br>";
-// $arraybidimensional = array((1,2,3)("a","b","c"));
-// var_dump($arraybidimensional) . "<br>";
-$arrayNumerosNeg = array(0,-1,-2,-3,-4,-5,-6,-7,-8,-9);
-var_dump($arrayNumerosNeg) . "<br>";
-echo "<br><br>";
 ?>
