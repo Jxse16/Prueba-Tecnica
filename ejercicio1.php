@@ -20,10 +20,21 @@ echo "<br> <br>";
 
 $valor = $booleano1 == $booleano2;
 echo $valor;
-
+echo "<br>";
 $valorDeNegacion = !$booleano1;
 echo $valorDeNegacion;
+echo "<br>";
+
+ $valor2 = $booleano1 or $booleano2;
+ echo $valor2;
+ echo"<br>";
+
+ $num6 = 6;
+ $num9 = 9;
+ $valor3 = $num6 === $num9;
+ echo $valor3;
 echo "<br> <br>";
+
 
 //Operadores
 
@@ -55,7 +66,7 @@ echo "<br>";
  echo $Contarhasta10_2;
 }
 echo "<br> <br>";
-for ($sumarpares=0; $sumarpares <10; $sumarpares++) { 
+for ($sumarpares=0; $sumarpares <=10; $sumarpares++) { 
     if($sumarpares % 2 == 0){
         echo $sumarpares . " ";
     }
@@ -65,5 +76,21 @@ $contarhasta10 = 0;
 while ($contarhasta10 <= 10){
     echo $contarhasta10++;
 }
+echo "<br> <br> <br>";
+//Arreglos
 
+$arrayvacio;
+
+$arrayNumeros = array(0,1,2,3,4,5,6,7,8,9);
+var_dump($arrayNumeros) . "<br>";
+echo "<br>";
+echo "<br>";
+$arraypares = array(0,2,4,6,8);
+var_dump($arraypares) . "<br>";
+echo "<br> <br>";
+// $arraybidimensional = array((1,2,3)("a","b","c"));
+// var_dump($arraybidimensional) . "<br>";
+$arrayNumerosNeg = array(0,-1,-2,-3,-4,-5,-6,-7,-8,-9);
+var_dump($arrayNumerosNeg) . "<br>";
+echo "<br><br>";
 ?>
